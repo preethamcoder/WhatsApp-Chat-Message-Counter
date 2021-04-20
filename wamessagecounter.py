@@ -17,7 +17,7 @@ for line in lines:
         else:
             ind_mes[participant] = 1
         messages += 1
-        print("\n\n\n\n\n\n\n")
+        print("\n\n\n\n\n\n\n\n")
 print("There are " + str(messages) + " messages between you and the interested party.")
 for i in ind_mes:
     print(i, "sent", ind_mes[i], "messages.")
